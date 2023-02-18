@@ -30,3 +30,11 @@
 [root@localhost ~]# reboot
 [root@localhost ~]# mdadm --detail /dev/md0
 [root@localhost ~]# df -h
+
+==================================================================================================
+                        Stop and remove a RAID array
+==================================================================================================
+
+[root@localhost ~]# umount /mnt/raid0
+[root@localhost ~]# mdadm --stop /dev/md0
+[root@localhost ~]# mdadm --remove /dev/md0

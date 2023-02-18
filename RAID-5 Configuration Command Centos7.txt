@@ -32,3 +32,10 @@
 [root@localhost ~]# reboot
 [root@localhost ~]# mdadm --detail /dev/md5
 [root@localhost ~]# halt  
+
+==================================================================================================
+                        Stop and remove a RAID array
+==================================================================================================
+[root@localhost ~]# umount /mnt/raid5
+[root@localhost ~]# mdadm --stop /dev/md5
+[root@localhost ~]# mdadm --remove /dev/md5
