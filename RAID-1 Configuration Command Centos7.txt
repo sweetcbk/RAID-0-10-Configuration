@@ -11,7 +11,7 @@
 [root@localhost ~]# yum install mdadm
 [root@localhost ~]# mdadm --create --verbose /dev/md1 --level=1 --raid-devices=2 /dev/sdd /dev/sde
 [root@localhost ~]# mkfs.ext4 /dev/md1
-[root@localhost ~]# mkdir /mnt/raid1-drive
+[root@localhost ~]# mkdir /mnt/raid1
 [root@localhost ~]# mount /dev/md1 /mnt/raid1
 [root@localhost ~]# df -h
 [root@localhost ~]# blkid
