@@ -37,4 +37,5 @@
 
 [root@localhost ~]# umount /mnt/raid0
 [root@localhost ~]# mdadm --stop /dev/md0
+                    OR
 [root@localhost ~]# mdadm --remove /dev/md0
