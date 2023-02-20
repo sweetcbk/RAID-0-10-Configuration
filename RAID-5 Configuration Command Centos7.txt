@@ -37,4 +37,5 @@
 ==================================================================================================
 [root@localhost ~]# umount /mnt/raid5
 [root@localhost ~]# mdadm --stop /dev/md5
+                 OR
 [root@localhost ~]# mdadm --remove /dev/md5
