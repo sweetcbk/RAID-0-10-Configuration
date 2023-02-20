@@ -37,4 +37,5 @@
 
 [root@localhost ~]# umount /mnt/raid1
 [root@localhost ~]# mdadm --stop /dev/md1
+                  OR
 [root@localhost ~]# mdadm --remove /dev/md1
