@@ -39,4 +39,5 @@
 
 [root@localhost ~]# umount /mnt/raid10
 [root@localhost ~]# mdadm --stop /dev/md10
+                  OR
 [root@localhost ~]# mdadm --remove /dev/md10
