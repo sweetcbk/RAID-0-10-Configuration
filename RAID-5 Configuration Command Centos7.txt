@@ -30,8 +30,7 @@
 [root@localhost ~]# df -h
 [root@localhost ~]# mount -av
 [root@localhost ~]# reboot
-[root@localhost ~]# mdadm --detail /dev/md5
-[root@localhost ~]# halt  
+[root@localhost ~]# mdadm --detail /dev/md5 
 
 ==================================================================================================
                         Stop and remove a RAID array
